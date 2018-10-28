@@ -1,4 +1,4 @@
-*+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
 <body>
   <!---sets up the nav bar, ml left means margin left-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Yusuf Serunjogi</a>
+    <a class="navbar-brand mh-100% ml-5" href="index.html">Yusuf Serunjogi</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,9 +33,11 @@
   </nav>
  <!-- i use the jumbotron for the main content area and restyle that. 
   First you set the width to 100% in bootstrap html, then style specific width -->
-  <div class="jumbotron mw-100">
+ <div class="container"> 
+   <div class="jumbotron mw-100 ">
       <h1 class="display-4">About</h1>
-      <img class="profimage" src="./assets/images/profilepic.jpg" />
+      <!---float image left to wrap text-->
+      <img class="profimage pull-left m-2 " src="./assets/images/profilepic.jpg" />
       <!--paragraph needs alot of text to snake around-->
       <p> Hello, Thank for visiting my portfolio.
           I studied Web Development at the UCI Bootcamp. I have been programming with skills I learnt from
@@ -79,7 +81,8 @@
 
 
     </div>
-<footer class="mw-100">
+ </div>
+<footer class="mw-100 mh-25 ">
             <p>
                 Copyright @
             </p>
