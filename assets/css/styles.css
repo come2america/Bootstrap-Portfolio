@@ -54,3 +54,6 @@ footer{     position: fixed;
     a:link {
         text-decoration: none;
     }
+    .profimage {
+      clear: both;
+    }
